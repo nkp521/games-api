@@ -1,12 +1,11 @@
 {
-  "name": "mock-api",
+  "name": "games-api",
   "version": "1.0.0",
-  "description": "Simple JSON server for Render",
-  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
+    "start": "node index.js"
   },
   "dependencies": {
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "cors": "^2.8.5"
   }
 }
