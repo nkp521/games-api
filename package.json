@@ -1,18 +1,11 @@
 {
   "name": "mock-api",
   "version": "1.0.0",
-  "description": "Mock REST API for deployment on Render using json-server",
+  "description": "Simple JSON server for Render",
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --port $PORT"
   },
-  "keywords": [
-    "json-server",
-    "render",
-    "mock-api"
-  ],
-  "author": "Kyle's Son",
-  "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.3"
   }
